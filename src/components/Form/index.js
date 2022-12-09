@@ -1,6 +1,6 @@
 import React from "react"
 import { View, Text } from "react-native"
-import { TextInput } from "react-native-web";
+import { Button, TextInput } from "react-native-web";
 
 
 
@@ -19,10 +19,11 @@ export default function Form() {
                     placeholder="Ex. 60.30"
                     KeyboardType="numeric" 
                 />
+
+                <Button title="Calcular IMC"/>
             </View>
 
 
-            <View></View>
             <View></View>
         </View>
     );
